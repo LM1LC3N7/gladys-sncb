@@ -1,6 +1,6 @@
 {
   "name": "gladys-sncb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "SNCB / NMBS (Belgian railways) for Gladys Assistant through the iRail API: next departures per station, delays, cancellations, platform changes, disturbances, scene triggers and a dashboard widget.",
   "type": "module",

@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-13
+
 ### Added
 
 - One device per watched station (typed in the configuration, with an
@@ -24,3 +26,6 @@ the notes of the version's GitHub Release.
 - Scene actions "next departures" and "disturbances".
 - Dashboard widgets "SNCB departures" and "SNCB disturbances".
 - "Test iRail" and "Search stations" buttons.
+
+[Unreleased]: https://github.com/LM1LC3N7/gladys-sncb/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/LM1LC3N7/gladys-sncb/releases/tag/v0.1.1
