@@ -49,10 +49,12 @@ disparaît dès que le train est parti.
 - **Perturbation publiée** : la SNCB a publié un nouvel avis. Nécessite
   l'appareil Réseau SNCB. Variables : le titre, la description, le lien.
 
-L'action **prochains départs** donne `{{list}}` (une ligne par train) et
-`{{next_train}}`, `{{next_destination}}`, `{{next_minutes}}`,
-`{{next_delay}}`, `{{next_platform}}` pour un message ou une condition ;
-**perturbations** donne `{{count}}`, `{{titles}}` et `{{latest}}`.
+L'action **prochains départs** donne `list` (une ligne par train) et
+`next_train`, `next_destination`, `next_minutes`, `next_delay`,
+`next_platform` pour un message ou une condition ; **perturbations** donne
+`count`, `titles` et `latest`. Les actions suivantes de la scène les
+trouvent dans leur liste de variables (écrites `{{<étape>.<action>.<clé>}}`,
+par exemple `{{0.0.list}}` quand cette action est la première de la scène).
 
 ## Dépannage
 

@@ -46,10 +46,12 @@ train has left.
 - **Disturbance published**: the SNCB published a new notice. Needs the
   SNCB network device. Variables: the title, the description, the link.
 
-The action **next departures** gives `{{list}}` (one line per train) and
-`{{next_train}}`, `{{next_destination}}`, `{{next_minutes}}`,
-`{{next_delay}}`, `{{next_platform}}` for a message or a condition;
-**disturbances** gives `{{count}}`, `{{titles}}` and `{{latest}}`.
+The action **next departures** gives `list` (one line per train) and
+`next_train`, `next_destination`, `next_minutes`, `next_delay`,
+`next_platform` for a message or a condition; **disturbances** gives
+`count`, `titles` and `latest`. The following actions of the scene find
+them in their variable list (written `{{<step>.<action>.<key>}}`, for
+instance `{{0.0.list}}` when this action is the first of the scene).
 
 ## Troubleshooting
 
