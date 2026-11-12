@@ -2,7 +2,7 @@
 
 ## Before announcing
 
-- [ ] Test on a real Gladys 5.1+: discovery with a located house (nearest
+- [ ] Test on a real Gladys 5.3+: discovery with a located house (nearest
       stations), a typed station with a destination filter, the two widgets,
       the "train approaching" trigger during a commute.
 - [ ] Reserve "SNCB / NMBS" in the forum thread t/10385 (Belgium has no
